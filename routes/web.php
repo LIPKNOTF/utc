@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//PARA QUE LA PAGINA PRINCIPAL REDIRIJA AL INDEX
+
+
 Route::get('/', function () {
     return view('index');
 });
